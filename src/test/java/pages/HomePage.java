@@ -54,16 +54,12 @@ public class HomePage extends GenericReusbales {
 		String URL_VAR = "url_" + environment;
 		String url = getConfig(URL_VAR);
 		driver.get(url);
-
+		reporting.report(Status.PASS, "Application launched successfully - "+url);
 		driver.manage().window().maximize();
 
 		// Implicit Wait
 		driver.manage().timeouts().implicitlyWait(MAX_TIMEOUT, TimeUnit.SECONDS);
 
-		// Enter Username and password
-		object.set(EDT_USERNAME, user, "Username");
-		object.set(EDT_PASSWORD, password, "Password");
-		object.click(BTN_LOGIN, "Login");
 	}
 
 	/**
@@ -77,36 +73,8 @@ public class HomePage extends GenericReusbales {
 		System.out.println(testcase.get("testcasename") + " - Browser Closed");
 	}
 
-	public void sample_pass() throws Exception {
-		reporting.report(Status.PASS, "Sample desc");
-	}
+	
 
-	public void sample_fail() throws Exception {
-		reporting.report(Status.FAIL, "Sample desc");
-	}
-
-	public void sample_fatal() throws Exception {
-		reporting.report(Status.FATAL, "Sample desc");
-	}
-
-	public void sample_skip() throws Exception {
-		reporting.report(Status.SKIP, "Sample desc");
-	}
-
-	public void sample_err() throws Exception {
-		reporting.report(Status.ERROR, "Sample desc");
-	}
-
-	public void sample_debug() throws Exception {
-		reporting.report(Status.DEBUG, "Sample desc");
-	}
-
-	public void sample_warn() throws Exception {
-		reporting.report(Status.WARNING, "Sample desc");
-	}
-
-	public void sample_info() throws Exception {
-		reporting.report(Status.INFO, "Sample desc");
-	}
+	
 
 }
