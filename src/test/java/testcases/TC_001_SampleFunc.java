@@ -27,21 +27,7 @@ public class TC_001_SampleFunc extends Base {
 
 			homepage.launchApp();
 
-			homepage.sample_pass();
-
-			homepage.sample_fail();
-
-			homepage.sample_fatal();
-
-			homepage.sample_skip();
-
-			homepage.sample_err();
-
-			homepage.sample_debug();
-
-			homepage.sample_warn();
-
-			homepage.sample_info();
+			
 
 			homepage.closeApp();
 
