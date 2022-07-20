@@ -47,9 +47,6 @@ public class HomePage extends GenericReusbales {
 	 * @throws Exception
 	 */
 	public void launchApp() throws Exception {
-		String user = datatable.getCellData("Username");
-		String password = datatable.getCellData("Password");
-
 		// Launch url
 		String URL_VAR = "url_" + environment;
 		String url = getConfig(URL_VAR);
