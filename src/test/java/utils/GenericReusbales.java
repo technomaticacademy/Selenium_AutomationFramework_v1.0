@@ -12,7 +12,7 @@ import java.util.Properties;
 import org.apache.log4j.Logger;
 
 public class GenericReusbales {
-	public final static int DEFAULT_MAX_TIMEOUT = 10;
+	public final static int DEFAULT_MAX_TIMEOUT = 20;
 	public static int MAX_TIMEOUT = DEFAULT_MAX_TIMEOUT;
 	public static String reportTable = "";
 	public static Logger log;

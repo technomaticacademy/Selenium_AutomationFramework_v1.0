@@ -75,7 +75,11 @@ public class HomePage extends GenericReusbales {
 	}
 
 	
-
+ public void clickAuto() throws Exception {
+	 String AutoXPath = "//a[@data-tracking-label='auto_section']//span[1]";
+	 
+	 object.click(By.xpath(AutoXPath), "Auto link");
+ }
 	
 
 }

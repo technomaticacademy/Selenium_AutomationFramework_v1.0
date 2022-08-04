@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Clicked on By.cssSelector: input[id='btnLogin']]]>
+      <![CDATA[Clicked on By.xpath: //a[@data-tracking-label='auto_section']//span[1]]]>
     </line>
     <line>
-      <![CDATA[Clicked on By.cssSelector: input[id='btnLogin']]]>
+      <![CDATA[Clicked on By.xpath: //input[@id='qsButton_overlay']]]>
     </line>
     <line>
-      <![CDATA[Clicked on By.cssSelector: input[id='btnLogin']]]>
+      <![CDATA[Clicked on By.xpath: //input[@id='NameAndAddressEdit_embedded_questions_list_MailingAddress']]]>
     </line>
     <line>
-      <![CDATA[Clicked on By.cssSelector: input[id='btnLogin']]]>
+      <![CDATA[Clicked on By.xpath: //button[text()='Okay, start my quote.']]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-05-03T21:02:29 IST" name="Automation Suite" finished-at="2020-05-03T21:03:38 IST" duration-ms="69367">
+  <suite started-at="2022-08-01T20:39:51 GMT-05:00" name="Default suite" finished-at="2022-08-01T20:40:16 GMT-05:00" duration-ms="24936">
     <groups>
     </groups>
-    <test started-at="2020-05-03T21:02:29 IST" name="Regression Test 1" finished-at="2020-05-03T21:03:38 IST" duration-ms="69367">
-      <class name="testcases.TC_001_SampleFunc">
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC_001_SampleFunc@6fe7aac8]" started-at="2020-05-03T21:02:29 IST" name="beforeClass" finished-at="2020-05-03T21:03:02 IST" duration-ms="32979" status="PASS">
+    <test started-at="2022-08-01T20:39:51 GMT-05:00" name="Default test" finished-at="2022-08-01T20:40:16 GMT-05:00" duration-ms="24936">
+      <class name="testcases.TC_002_CreateAutoQuote">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.TC_002_CreateAutoQuote@732c2a62]" started-at="2022-08-01T20:39:51 GMT-05:00" name="beforeSuite" finished-at="2022-08-01T20:39:51 GMT-05:00" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC_002_CreateAutoQuote@732c2a62]" started-at="2022-08-01T20:39:51 GMT-05:00" name="beforeClass" finished-at="2022-08-01T20:39:55 GMT-05:00" duration-ms="4531" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,18 +39,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="testcase()[pri:0, instance:testcases.TC_001_SampleFunc@6fe7aac8]" started-at="2020-05-03T21:03:02 IST" name="testcase" finished-at="2020-05-03T21:03:38 IST" duration-ms="36030" status="PASS">
+        <test-method signature="testcase()[pri:0, instance:testcases.TC_002_CreateAutoQuote@732c2a62]" started-at="2022-08-01T20:39:55 GMT-05:00" name="testcase" finished-at="2022-08-01T20:40:15 GMT-05:00" duration-ms="19998" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Clicked on By.cssSelector: input[id='btnLogin']]]>
+              <![CDATA[Clicked on By.xpath: //a[@data-tracking-label='auto_section']//span[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on By.xpath: //input[@id='qsButton_overlay']]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on By.xpath: //input[@id='NameAndAddressEdit_embedded_questions_list_MailingAddress']]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on By.xpath: //button[text()='Okay, start my quote.']]]>
             </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcases.TC_001_SampleFunc@6fe7aac8]" started-at="2020-05-03T21:03:38 IST" name="afterClass" finished-at="2020-05-03T21:03:38 IST" duration-ms="317" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcases.TC_002_CreateAutoQuote@732c2a62]" started-at="2022-08-01T20:40:15 GMT-05:00" name="afterClass" finished-at="2022-08-01T20:40:16 GMT-05:00" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testcases.TC_001_SampleFunc -->
-    </test> <!-- Regression Test 1 -->
-  </suite> <!-- Automation Suite -->
+        <test-method is-config="true" signature="afterSuite(java.lang.String)[pri:0, instance:testcases.TC_002_CreateAutoQuote@732c2a62]" started-at="2022-08-01T20:40:16 GMT-05:00" name="afterSuite" finished-at="2022-08-01T20:40:32 GMT-05:00" duration-ms="16061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC_002_CreateAutoQuote -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

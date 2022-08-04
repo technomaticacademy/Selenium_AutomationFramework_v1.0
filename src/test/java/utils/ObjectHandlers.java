@@ -457,4 +457,10 @@ public class ObjectHandlers extends GenericReusbales {
 			reporting.report(Status.FAIL, "Caught Exception: " + e.getMessage());
 		}
 	}
+	
+	
+	public void waitForElementToBeClickable(By by) {
+		WebDriverWait wait = new WebDriverWait(driver, MAX_TIMEOUT);
+		wait.until(ExpectedConditions.elementToBeClickable(by));
+	}
 }

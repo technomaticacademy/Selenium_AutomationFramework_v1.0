@@ -6,6 +6,8 @@
 		<parameter name="environment" value="01" />
 		<classes>
 			<class name="testcases.TC_001_SampleFunc" />
+			<class name="testcases.TC_TEMPLATE" />
+			
 
 		</classes>
 	</test>

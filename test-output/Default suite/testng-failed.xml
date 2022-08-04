@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.TC_001_SampleFunc">
+      <class name="testcases.TC_002_CreateAutoQuote">
         <methods>
           <include name="beforeClass"/>
           <include name="testcase"/>
@@ -11,7 +11,7 @@
           <include name="afterClass"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- testcases.TC_001_SampleFunc -->
+      </class> <!-- testcases.TC_002_CreateAutoQuote -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
