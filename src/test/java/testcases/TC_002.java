@@ -25,7 +25,7 @@ public class TC_002 extends Base {
 
 			homepage.launchApp();
 			homepage.closeApp();
-			System.out.println("");
+			System.out.println("test");
 
 		} catch (Exception e) {
 			teardownexception(reporting, e);
